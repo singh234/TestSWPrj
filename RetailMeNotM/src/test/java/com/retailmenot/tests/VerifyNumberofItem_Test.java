@@ -34,6 +34,7 @@ public class VerifyNumberofItem_Test {
 		if(browserType.equals("FF"))
 		{
 		    driver = new FirefoxDriver();
+		    System.out.println("New Branch to practice Github");
 		}
 		else if(browserType.equals("IE")){
 			System.setProperty("webdriver.ie.driver", "IEDriverServer.exe");
