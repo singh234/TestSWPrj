@@ -26,6 +26,7 @@ public class VerifyNumberofItem_Test {
    HomePage homePage;
    DealsPage dealsPage;
    Logger logger;
+  
 	
 	@Parameters({"url","browserType"})
 	@BeforeClass
